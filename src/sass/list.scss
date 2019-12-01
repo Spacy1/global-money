@@ -2,17 +2,40 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
+  outline: 1px solid red;
+
+  @media (min-width: 960px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .list__item {
-  width: calc(33% - 8px);
-  flex-basis: calc(33% - 8px);
   height: 200px;
   outline: 1px solid saddlebrown;
+
+  @media (min-width: 768px) {
+  }
+
+  @media (min-width: 960px) {
+    flex-basis: calc(100% / 3 - 8px);
+    margin-right: 12px;
+    margin-bottom: 12px;
+  }
 }
 
-.list__item:not(:last-child) {
-  margin-right: 16px;
+@media (min-width: 960px) {
+  .list__item:nth-child(3n) {
+    margin-right: 0;
+  }
+
+  .list__item:nth-last-child(-n + 3) {
+    margin-bottom: 0;
+  }
+}
+
+.list__item + .list__item {
+  @media (max-width: 959px) {
+    margin-top: 16px;
+  }
 }
