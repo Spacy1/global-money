@@ -2,12 +2,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
   background-color: $accent-color;
   min-height: 64px;
 }
 
+.copyright {
+  color: $primary-white-color;
+}
+
 .copyright__link {
-  text-decoration: none;
-  color: $primary-black-color;
+  color: inherit;
 }
