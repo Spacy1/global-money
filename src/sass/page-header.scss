@@ -1,0 +1,56 @@
+.page-header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: $primary-white-color;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  z-index: 100;
+}
+
+.page-header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 64px;
+}
+
+.page-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.page-nav__link {
+  display: block;
+  padding: 12px 24px;
+  border-radius: 2px;
+  color: $primary-black-color;
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 250ms $transition-function 0ms,
+    background-color 250ms $transition-function 0ms;
+}
+
+.page-nav__link:hover,
+.page-nav__link:focus {
+  color: $accent-color;
+}
+
+.page-nav__item--active .page-nav__link {
+  background-color: $accent-color;
+  color: $primary-white-color;
+}
+
+.site-logo {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 28px;
+  color: $primary-black-color;
+}
+// TODO: назвать span классом
+.site-logo span {
+  color: $accent-color;
+}
