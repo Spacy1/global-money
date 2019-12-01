@@ -1,45 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Webpack Starter Kit</title>
-
-    <!-- Don't forget to delete this style tag. -->
-    <style>
-      body {
-        min-height: 100vh;
-        margin: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .intro {
-        text-align: center;
-      }
-
-      .intro h1 {
-        margin-top: 0;
-        font-weight: 500;
-        font-size: 40px;
-      }
-
-      .intro img {
-        display: block;
-        max-width: 100%;
-        height: auto;
-      }
-    </style>
+    <title>Global Money</title>
   </head>
 
   <body>
-    <article class="intro">
-      <h1>Webpack starter kit</h1>
+    <header class="page-header" data-scroll-header>
+      <div class="container">
+        <nav class="page-header__nav">
+          <a href="/" class="site-logo">Global <span>Money</span></a>
 
-      <!-- HTML image reference example. -->
-      <img src="images/intro.png" alt="" width="640" />
-    </article>
+          <div class="page-nav">
+            <a href="#section-1" class="page-nav__link">Section 1</a>
+            <a href="#section-2" class="page-nav__link">Section 2</a>
+            <a href="#section-3" class="page-nav__link">Section 3</a>
+            <a href="#section-4" class="page-nav__link">Section 4</a>
+          </div>
+        </nav>
+      </div>
+    </header>
   </body>
 </html>
