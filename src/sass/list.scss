@@ -1,0 +1,18 @@
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list__item {
+  width: calc(33% - 8px);
+  flex-basis: calc(33% - 8px);
+  height: 200px;
+  outline: 1px solid saddlebrown;
+}
+
+.list__item:not(:last-child) {
+  margin-right: 16px;
+}
