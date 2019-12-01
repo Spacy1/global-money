@@ -1,0 +1,13 @@
+.page-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: $accent-color;
+  min-height: 64px;
+}
+
+.copyright__link {
+  text-decoration: none;
+  color: $primary-black-color;
+}
