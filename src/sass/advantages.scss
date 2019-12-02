@@ -5,6 +5,16 @@
   }
 }
 
+@media (max-width: 959px) {
+  .advantages__entry:last-child {
+    margin-top: 32px;
+  }
+}
+
+.advantages__title {
+  margin-top: 0;
+}
+
 .advantages__list {
   padding: 0;
   margin: 0;
