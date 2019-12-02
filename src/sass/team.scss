@@ -1,0 +1,28 @@
+.team {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  @media (min-width: 768px) {
+    display: flex;
+  }
+}
+
+.team__item {
+  @media (min-width: 768px) {
+    flex-basis: calc(100% / 3 - 8px);
+  }
+}
+
+.team__item:not(:last-child) {
+  @media (min-width: 768px) {
+    margin-right: 12px;
+  }
+}
+
+.team-member__photo {
+  display: block;
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
