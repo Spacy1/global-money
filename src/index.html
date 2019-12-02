@@ -1,135 +1,193 @@
 <!DOCTYPE html>
 <html lang="ua">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Global Money</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Global Money</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic"
-        rel="stylesheet" />
-</head>
-
-<body>
-  <!-- TODO: добавить data-scroll-header для scrollspy -->
-  <!-- <header class="page-header">
+  <body>
+    <div class="baner">
       <div class="container">
-        <nav class="page-header__nav">
-          <a href="/" class="site-logo">
-            <img src="./images/logo.jpg" alt="global money logo" width="60" />
-          </a>
-        </nav>
-      </div>
-    </header> -->
+        <section class="hero">
+          <h1 class="hero__title">
+            Global Money - це про електронні гроші та зручну роботу. <br />Без
+            зайвих відсотків.
+          </h1>
+          <a
+            class="hero__link"
+            href="https://globalmoney.ua"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Дізнайся більше</a
+          >
+        </section>
 
-  <div class="baner">
-    <div class="container">
-      <section class="hero">
-        <h1 class="hero__title">
-          Global Money - це про електронні гроші та зручну роботу. <br />Без
-          зайвих відсотків
-        </h1>
-        <a class="hero__link" href="https://globalmoney.ua" target="_blank"
-           rel="noopener noreferrer">Дізнайся більше</a>
+        <a href="#features" class="next-link"></a>
+      </div>
+    </div>
+
+    <main>
+      <section class="section" id="features">
+        <div class="container">
+          <h2 class="section__title">Переваги сервісу</h2>
+
+          <ul class="feature-list">
+            <li class="feature-list__item">
+              <h3>Правомірність</h3>
+              <p>
+                Перші електронні гроші, емітовані з дотриманням всіх правових
+                норм, гарантовані державним банком України.
+              </p>
+            </li>
+
+            <li class="feature-list__item">
+              <h3>Гарантія</h3>
+              <p>
+                Ми гарантуємо високу надійність розрахунків за допомогою
+                сучасних технологій шифрування. Кожна операція захищена
+                технологією 3d Secure.
+              </p>
+            </li>
+
+            <li class="feature-list__item">
+              <h3>Можливості</h3>
+              <p>
+                Платіжна система «ГлобалМані» надає широкі можливості по оплаті
+                онлайн будь-яких рахунків, квитанцій, товарів і послуг
+              </p>
+            </li>
+
+            <li class="feature-list__item">
+              <h3>Партнери</h3>
+              <p>
+                Нашими партнерами є найбільші компанії в самих різних сферах
+                діяльності - українські та міжнародні, державні та приватні,
+                банки і фінансові компанії та ін.
+              </p>
+            </li>
+
+            <li class="feature-list__item">
+              <h3>Без комісій</h3>
+              <p>
+                Ми також пропонуємо здійснювати грошові перекази всередині
+                системи - між електронними гаманцями користувачів - без комісій.
+              </p>
+            </li>
+
+            <li class="feature-list__item">
+              <h3>Зручність</h3>
+              <p>
+                Сервіс дозволяє сплачувати товари в інтернет-магазинах,
+                проводити зворотний обмін електронних грошей і безліч інших
+                операцій - як в онлайні, так і в офлайні.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
-      <a href="#features" class="next-link"></a>
-    </div>
-  </div>
+      <section class="section">
+        <div class="container">
+          <h2 class="section__title">Title</h2>
 
-  <main>
-    <section class="section" id="features">
-      <div class="container">
-        <h2 class="section__title">Переваги сервісу</h2>
+          <div class="advantages">
+            <section class="advantages__entry">
+              <h3 class="advantages__title">Для фрилансеров</h3>
+              <ul class="advantages__list">
+                <li>
+                  Оплата по факту (замовник оплачує роботу на рахунок
+                  електронного гаманця, виконавець отримує кошти по завершенню)
+                </li>
+                <li>Робота з гарантією</li>
+                <li>Виведення коштів з гаманця у будь-якій точці світу</li>
+                <li>
+                  Конфіденційність власної карти (розрахунок проводиться через
+                  електронний гаманець)
+                </li>
+                <li>Моніторинг шахрайських операцій 24 години на добу</li>
+              </ul>
+            </section>
 
-        <ul class="feature-list">
-          <li class="feature-list__item">
-            <h3>Правомірність</h3>
-            <p>
-              Перші електронні гроші, емітовані з дотриманням всіх правових
-              норм, гарантовані державним банком України.
-            </p>
-          </li>
+            <section class="advantages__entry">
+              <h3 class="advantages__title">Для заказчиков</h3>
+              <ul class="advantages__list">
+                <li>
+                  Поповнення гаманця виконавця будь-яким зручним способом
+                  (картка, термінал, гаманець)
+                </li>
+                <li>Робота з гарантією</li>
+                <li>Безкоштовний супровід клієнтів</li>
+                <li>75000 місць приймання платежів</li>
+                <li>
+                  Переказ грошових коштів у національній валюті без відкриття
+                  рахунку
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
 
-          <li class="feature-list__item">
-            <h3>Гарантія</h3>
-            <p>
-              Ми гарантуємо високу надійність розрахунків за допомогою
-              сучасних технологій шифрування. Кожна операція захищена
-              технологією 3d Secure.
-            </p>
-          </li>
+      <section class="section" id="team">
+        <div class="container">
+          <h2 class="section__title">Наша команда</h2>
 
-          <li class="feature-list__item">
-            <h3>Можливості</h3>
-            <p>
-              Платіжна система «ГлобалМані» надає широкі можливості по оплаті
-              онлайн будь-яких рахунків, квитанцій, товарів і послуг
-            </p>
-          </li>
+          <ul class="team">
+            <li class="team__item team-member">
+              <img
+                src="./images/team/team-1.jpg"
+                alt=""
+                width="320"
+                class="team-member__photo"
+              />
+              <h3 class="team-member__name">Вікторія Подчерняєва</h3>
+              <p class="team-member__occupation">Менеджер проекту</p>
+              <a
+                href="mailto:podchernyaeva.viktoria@gmail.com"
+                class="team-member__email"
+                >podchernyaeva.viktoria@gmail.com</a
+              >
+            </li>
+            <li class="team__item team-member">
+              <img
+                src="./images/team/team-2.jpg"
+                alt=""
+                width="320"
+                class="team-member__photo"
+              />
+              <h3 class="team-member__name">Валерія Павлюк</h3>
+              <p class="team-member__occupation">Виконавець проекту</p>
+              <a
+                href="mailto:valeriepavlyuk@gmail.com"
+                class="team-member__email"
+                >valeriepavlyuk@gmail.com</a
+              >
+            </li>
+            <li class="team__item team-member">
+              <img
+                src="./images/team/team-3.jpeg"
+                alt=""
+                width="320"
+                class="team-member__photo"
+              />
+              <h3 class="team-member__name">Анастасія Слуцька</h3>
+              <p class="team-member__occupation">Виконавець проекту</p>
+              <a
+                href="mailto:anastasiiaslutska@gmail.com"
+                class="team-member__email"
+                >anastasiiaslutska@gmail.com</a
+              >
+            </li>
+          </ul>
+        </div>
 
-          <li class="feature-list__item">
-            <h3>Партнери</h3>
-            <p>
-              Нашими партнерами є найбільші компанії в самих різних сферах
-              діяльності - українські та міжнародні, державні та приватні,
-              банки і фінансові компанії та ін.
-            </p>
-          </li>
-
-          <li class="feature-list__item">
-            <h3>Без комісій</h3>
-            <p>
-              Ми також пропонуємо здійснювати грошові перекази всередині
-              системи - між електронними гаманцями користувачів - без комісій.
-            </p>
-          </li>
-
-          <li class="feature-list__item">
-            <h3>Зручність</h3>
-            <p>
-              Сервіс дозволяє сплачувати товари в інтернет-магазинах,
-              проводити зворотний обмін електронних грошей і безліч інших
-              операцій - як в онлайні, так і в офлайні.
-            </p>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="section" id="team">
-      <div class="container">
-        <h2 class="section__title">Наша команда</h2>
-
-        <ul class="team">
-          <li class="team__item team-member">
-            <img src="./images/team/team-1.jpg" alt="" width="320"
-                 class="team-member__photo" />
-            <h3 class="team-member__name">Вікторія Подчерняєва</h3>
-            <p class="team-member__occupation">Менеджер проекту</p>
-            <a href="mailto:podchernyaeva.viktoria@gmail.com"
-               class="team-member__email">podchernyaeva.viktoria@gmail.com</a>
-          </li>
-          <li class="team__item team-member">
-            <img src="./images/team/team-2.jpg" alt="" width="320"
-                 class="team-member__photo" />
-            <h3 class="team-member__name">Валерія Павлюк</h3>
-            <p class="team-member__occupation">Виконавець проекту</p>
-            <a href="mailto:valeriepavlyuk@gmail.com"
-               class="team-member__email">valeriepavlyuk@gmail.com</a>
-          </li>
-          <li class="team__item team-member">
-            <img src="./images/team/team-3.jpeg" alt="" width="320"
-                 class="team-member__photo" />
-            <h3 class="team-member__name">Анастасія Слуцька</h3>
-            <p class="team-member__occupation">Виконавець проекту</p>
-            <a href="mailto:anastasiiaslutska@gmail.com"
-               class="team-member__email">anastasiiaslutska@gmail.com</a>
-          </li>
-        </ul>
-      </div>
-
-      <!--
+        <!--
       FB: https://www.facebook.com/profile.php?id=100009241656025
       E-mail: podchernyaeva.viktoria@gmail.com
 
@@ -140,18 +198,25 @@
       Анастасія Слуцька - виконавець проекту
       FB: https://www.facebook.com/AnastasiiSlutskA
       E-mail: anastasiiaslutska@gmail.com -->
-    </section>
-  </main>
+      </section>
+    </main>
 
-  <footer class="page-footer">
-    <p class="copyright">
-      Copyright © 2019
-      <a class="copyright__link" href="https://github.com/luxplanjay"
-         target="_blank" rel="noreferrer noopener">
-        Luxplanjay
-      </a>
-    </p>
-  </footer>
-</body>
-
+    <footer class="page-footer">
+      <p class="copyright">
+        Copyright © 2019
+        <a href="/" class="site-logo">
+          <img src="./images/logo.jpg" alt="global money logo" width="80" />
+        </a>
+        Created by
+        <a
+          class="copyright__link"
+          href="https://github.com/luxplanjay"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          Luxplanjay </a
+        >.
+      </p>
+    </footer>
+  </body>
 </html>
