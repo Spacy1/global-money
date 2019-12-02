@@ -20,17 +20,27 @@
   text-align: center;
   color: $primary-white-color;
   width: 320px;
+
+  @media (min-width: 768px) {
+    width: 600px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 .hero__title {
   margin-top: 0;
   margin-bottom: 48px;
   color: $primary-white-color;
+
+  @media (min-width: 768px) {
+    font-size: 32px;
+  }
 }
 
 .hero__link {
   display: inline-block;
-  padding: 12px 20px;
+  padding: 12px 32px;
   border-radius: 3px;
   text-decoration: none;
   background-color: $accent-color;
@@ -40,7 +50,8 @@
     0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
   transition: transform 250ms $transition-function,
     background-color 250ms $transition-function;
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 .hero__link:hover,
